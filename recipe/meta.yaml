@@ -27,6 +27,7 @@ requirements:
     - requests
     - tqdm
     - xarray
+    - httplib2shim
 
 test:
   imports:
