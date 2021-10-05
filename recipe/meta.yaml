@@ -28,6 +28,7 @@ requirements:
     - tqdm
     - xarray
     - httplib2shim
+    - joblib
 
 test:
   imports:
