@@ -1,5 +1,5 @@
 {% set name = "wxee" %}
-{% set version = "0.1.1" %}
+{% set version = "0.2.0" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wxee-{{ version }}.tar.gz
-  sha256: d7eb65d64a8142e8c0672a35e1cfa5e8b6aef5b6a711aff12d09cc3c58a7ad2c
+  sha256: 8bb0ac89e466bf50f28e9b71223adb25a893c92877e6e86f79432d061221a164
 
 build:
   number: 0
