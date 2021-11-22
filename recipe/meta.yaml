@@ -29,6 +29,7 @@ requirements:
     - xarray
     - httplib2shim
     - joblib
+    - plotly >=5.2.2
 
 test:
   imports:
