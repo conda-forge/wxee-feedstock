@@ -1,11 +1,11 @@
-About wxee
-==========
+About wxee-feedstock
+====================
+
+Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wxee-feedstock/blob/main/LICENSE.txt)
 
 Home: https://github.com/aazuspan/wxee
 
 Package license: GPL-3.0-or-later
-
-Feedstock license: [BSD-3-Clause](https://github.com/conda-forge/wxee-feedstock/blob/main/LICENSE.txt)
 
 Summary: Earth Engine to xarray interface
 
