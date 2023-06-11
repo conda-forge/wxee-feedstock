@@ -24,7 +24,7 @@ requirements:
     - earthengine-api
     - python >=3.8
     - rasterio
-    - rioxarray
+    - rioxarray >=0.3.0
     - requests
     - tqdm
     - xarray
