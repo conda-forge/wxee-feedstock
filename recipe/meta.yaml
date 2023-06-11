@@ -18,18 +18,17 @@ build:
 requirements:
   host:
     - pip
-    - python >=3.7
+    - python >=3.8
+    - hatchling
   run:
     - earthengine-api
-    - netcdf4
-    - python >=3.7
+    - python >=3.8
     - rasterio
+    - rioxarray
     - requests
     - tqdm
     - xarray
-    - httplib2shim
     - joblib
-    - plotly >=5.2.2
 
 test:
   imports:
@@ -38,7 +37,7 @@ test:
 about:
   home: https://github.com/aazuspan/wxee
   summary: Earth Engine to xarray interface
-  license: GPL-3.0-or-later
+  license: MIT
   license_file: LICENSE
   doc_url: https://wxee.readthedocs.io/
 
