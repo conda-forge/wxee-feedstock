@@ -7,22 +7,22 @@ package:
   version: {{ version }}
 
 source:
-  url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/wxee-{{ version }}.tar.gz
+  url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/wxee-{{ version }}.tar.gz
   sha256: e197df48c8b975fdc50793d2c554c9ec9617fa11ed262b2fec3b983e46f71042
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: {{ PYTHON }} -m pip install . -vv
 
 requirements:
   host:
     - pip
-    - python >=3.8
+    - python {{ python_min }}
     - hatchling
   run:
     - earthengine-api
-    - python >=3.8
+    - python >={{ python_min }}
     - rasterio
     - rioxarray >=0.3.0
     - requests
@@ -31,6 +31,8 @@ requirements:
     - joblib
 
 test:
+  requires:
+    - python {{ python_min }}
   imports:
     - wxee
 
